@@ -45,7 +45,7 @@
   margin: 0 0 10px 0;
   color: var(--colorMain);
 }
-.textHero h1{
+.textHero h1 {
   font-size: 70px;
   margin: 10px 0 0 0;
 }
@@ -57,7 +57,8 @@
 .textHero a {
   text-decoration: none;
   /*margin: 10px 0 50px 0;
-  */padding: 10px 20px 10px 20px;
+  */
+  padding: 10px 20px 10px 20px;
   background: var(--colorMain);
   color: white;
   font-size: 20px;
