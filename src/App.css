@@ -1,0 +1,84 @@
+#root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --colorMain: rgb(254, 152, 8, 0.8);
+  --ColorLight: rgb(128, 124, 124);
+  --backgrundDarkTow: rgb(254, 152, 8, 0.8);
+}
+
+[dark-theme="dark"] {
+  --backgroundDark: black;
+  --colorDark: rgb(254, 152, 8, 0.8);
+  --colorWihteDark: white;
+  --backgrundDarkTow: rgb(254, 152, 8, 0.8);
+}
+/*
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.Box {
+  width: 100%;
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+}
+
+.continer {
+  width: 85%;
+  /* background: green; */
+  /* background-color: black; */
+}
+
+html {
+  scroll-behavior: smooth;
+  /* background-color: black; */
+}
+
+body {
+  background: var(--backgroundDark);
+  /* color: var(--colorDark); */
+  /* color: ; */
+}
+
+/* .continerAbout {
+  background: var(--backgroundDark);
+  color: var(--colorDark);
+} */

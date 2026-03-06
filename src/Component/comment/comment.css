@@ -1,0 +1,109 @@
+.continerComment {
+  /* overflow-x: hidden; */
+  display: flex;
+  justify-content: center;
+}
+.slider-container {
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  margin-top: 80px;
+  width: 100%; 
+  margin-right: 0px;
+}
+
+.Title-slider-container {
+  text-align: center;
+}
+
+.slider-wrapper {
+  display: flex;
+  gap: 20px; 
+  transition: transform 0.5s ease-in-out;
+  /* width: 1024px; */
+}
+
+.card {
+  width: 100px;
+  flex: 0 0 360px;
+  height: 225px;
+  background: var(--colorMain);
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+
+.titleCard,
+.textCard {
+  margin: 10px 5px;
+}
+
+.imgCard {
+  background: rgba(210, 219, 210, 0.808);
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.titleCard {
+  font-weight: lighter;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgb(65, 64, 64);
+}
+
+.textCard {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: var(--colorMain);
+}
+
+/* ✅ التعديلات للشاشات */
+@media (max-width:1024px) {
+  .slider-container {
+    width: 100%;
+  }
+  .slider-wrapper {
+    width: 360px; 
+  }
+}
+
+
+
+@media (max-width:600px) {
+  .slider-container {
+    margin-left: -12px;
+    width: 360px; 
+  }
+  .card {
+    width: 100px;
+    flex: 0 0 100%;
+    /* margin-left: -50px; */
+  }
+}

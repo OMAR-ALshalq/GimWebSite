@@ -1,0 +1,141 @@
+.BoxContact {
+  background: rgb(247, 243, 243);
+  margin: 100px 0 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--backgroundDark);
+}
+
+.BoxContact .TextContact {
+  flex: 0 0 40%;
+  font-size: 19.8px;
+}
+
+.BoxContact .TextContact span {
+  color: var(--colorMain);
+}
+
+.BoxContact .TextContact {
+  color: var(--ColorLight);
+}
+
+.ButtonContact button {
+  background: var(--colorMain);
+  border: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media (max-width: 1024px) {
+  .BoxContact {
+    flex-direction: column;
+  }
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.FormBox {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.FormBox form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormBox input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid var(--colorMain);
+}
+
+.FormBox input::placeholder {
+  color: var(--colorMain);
+}
+
+.FormBox input:focus {
+  outline: none;
+}
+
+.FormBox form textarea {
+  width: 100%;
+  padding: 10px 0 0 10px;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 1px solid var(--colorMain);
+}
+
+.FormBox form textarea::placeholder {
+  color: var(--colorMain);
+}
+.FormBox form textarea:focus {
+  outline: none;
+}
+.FormActions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.FormActions button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.FormActions button:first-child {
+  background: #ccc;
+}
+
+.FormActions button:last-child {
+  background: var(--colorMain);
+  color: #fff;
+}
+
+.FormActions button:last-child:hover {
+  border: 1px solid var(--colorMain);
+  background: white;
+  color: var(--colorMain);
+}

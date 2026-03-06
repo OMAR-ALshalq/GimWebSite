@@ -1,0 +1,173 @@
+.continerAbout {
+  width: 100%;
+  margin-top: 100px;
+  background: rgb(247, 243, 243);
+  display: flex;
+  justify-content: center;
+  /* background: black; */
+  background: var(--backgroundDark);
+  color: var(--colorWihteDark);
+}
+
+.BoxAbout {
+  width: 85%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: red; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: row-reverse; */
+}
+
+
+
+.ImgAbout {
+  /* background: green; */
+  flex: 0 0 60%;
+}
+.BoxAbout .ImgAbout img {
+  width: 350px;
+  /* margin-left: 50px; */
+}
+
+.BoxAbout .TextAbout {
+  /* background: green; */
+  flex: 1;
+  height: 100%;
+  margin-right: 50px;
+}
+.TextAbout .Title {
+  margin-top: 10px;
+}
+.BoxAbout .TextAbout .Title {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+
+.TextAbout .Title .number {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--colorMain);
+}
+
+.TextAbout .Title .Text h5,
+.TextAbout .Title .Text h1 {
+  margin: 0;
+}
+
+.TextAbout .Title .Text h5 {
+  margin-left: 5px;
+  color: var(--ColorLight);
+}
+
+.TextAbout p {
+  line-height: 2;
+}
+
+.TextAbout p:nth-child(3) {
+  color: var(--ColorLight);
+}
+
+.TextAbout a {
+  text-decoration: none;
+  color: var(--colorMain);
+  font-size: 20px;
+  border: 2px solid var(--colorMain);
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.MainBoxAbout {
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width:1024px) {
+  .BoxAbout {
+    flex-direction: column;
+  }
+  .Title{
+    justify-content: center;
+  }
+  .TextAbout {
+    text-align: center;
+  }
+  .BoxAbout .ImgAbout img {
+    width: 300px;
+  } 
+}
+@media (max-width:600px) {
+  .BoxAbout .TextAbout {
+    margin-right: 0px;
+    margin-top: -30px;
+  }
+}
+/* Even */
+
+.rowReverse {
+  width: 85%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  /* background: red; */
+}
+
+
+
+.ImgEven {
+  /* background: green; */
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: center;
+}
+.rowReverse .ImgEven img {
+  width: 350px;
+  margin-left: 70px;
+}
+
+.rowReverse .TextEven {
+  /* background: green; */
+  flex: 1;
+  height: 100%;
+  margin-left: 50px;
+}
+
+@media (max-width:600px) {
+  .rowReverse .TextEven {
+    margin-left: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+  .rowReverse {
+    flex-direction: column;
+  }
+  .rowReverse .ImgEven img {
+    width: 300px;
+    height: 300px;
+    margin-left: -10px;
+  }
+}
+
+
+
+
+/* Even */

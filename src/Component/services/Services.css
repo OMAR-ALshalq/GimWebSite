@@ -1,0 +1,118 @@
+
+
+.BoxServices {
+  margin-bottom: 70px;
+}
+.TitleServices {
+  text-align: center;
+  font-size: 25px;
+  color: var(--colorWihteDark);
+}
+
+.TitleServices span {
+  color: var(--colorMain);
+}
+
+.Services {
+  display: flex;
+  /* background: green; */
+  /* gap: 50px; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0px 0 0px;
+}
+
+.Services .Card {
+  background: rgba(210, 219, 210, 0.808);
+  height: 480px;
+  width: 360px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 1.0s;
+  -webkit-transition: 1.0s;
+  -moz-transition: 1.0s;
+  -ms-transition: 1.0s;
+  -o-transition: 1.0s;
+}
+
+.Services .Card:hover {
+  background: rgb(245, 227, 227);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.Services .Card h2,
+.Services .Card p,
+.Services .Card h3,
+.Services .Card a{
+  margin: 10px 5px;
+}
+
+.Services .Card h2:nth-child(1) {
+  font-weight: bold;
+}
+
+.Services .Card h2:nth-child(2) {
+  color: var(--colorMain);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.Services .Card p {
+  margin: 0 80px 0 80px;
+  line-height: 2.6;
+  /* color:  rgb(145, 43, 43); */
+}
+
+.Services .Card h3 {
+  font-size: 25px;
+}
+
+.Services .Card a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: var(--colorMain);
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 2px solid transparent;
+  transition: 1.0s;
+  -webkit-transition: 1.0s;
+  -moz-transition: 1.0s;
+  -ms-transition: 1.0s;
+  -o-transition: 1.0s;
+}
+
+.Services .Card a:hover {
+  background: white;
+  color: var(--colorMain);
+  border: 2px solid var(--colorMain);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+@media (max-width:1024px) {
+  .Services {
+    flex-direction: column;
+  }
+  .Services .Card {
+    margin-bottom: 30px;
+  }
+}

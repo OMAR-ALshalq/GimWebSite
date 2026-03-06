@@ -1,0 +1,82 @@
+.continerFooter {
+  background: rgb(250, 164, 4);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0 0 0;
+}
+
+.BoxFooter {
+  /* background: green; */
+  width: 75%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogoAndIcon {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+}
+
+.LogoAndIcon img {
+  width: 50px;
+  height: 50px;
+}
+
+.LogoAndIcon ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 30px;
+  color: black;
+}
+
+.LogoAndIcon ul a{
+  color: black;
+}
+
+.LogoAndIcon ul a:hover {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.FooterTags ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.FooterTags ul a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.FooterTags ul a:hover {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+@media (max-width:600px) {
+  .BoxFooter {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .LogoAndIcon{
+    height: 0;
+    margin-top: 35px;
+  }
+  .FooterTags {
+        margin-top: 10px;
+  }
+  .FooterTags ul {
+    padding: 0;
+  }
+}
