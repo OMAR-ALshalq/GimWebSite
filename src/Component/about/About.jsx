@@ -1,9 +1,9 @@
-import "./About.css"
+import "./About.css";
 
 const ArrayBoxAbout = [
   {
     id: 1,
-    Imge: "../../../public/banner.png",
+    Imge: "public/banner.png",
     textOne: "Global Fitnees",
     textTow: "About us",
     textThree:
@@ -14,7 +14,7 @@ const ArrayBoxAbout = [
   },
   {
     id: 2,
-    Imge: "../../../public/banner2.png",
+    Imge: "public/banner2.png",
     textOne: "Global Fitnees",
     textTow: "About us",
     textThree:
@@ -25,7 +25,7 @@ const ArrayBoxAbout = [
   },
   {
     id: 3,
-    Imge: "../../../public/banner.png",
+    Imge: "public/banner.png",
     textOne: "Global Fitnees",
     textTow: "About us",
     textThree:
@@ -36,8 +36,7 @@ const ArrayBoxAbout = [
   }
 ];
 
-
-export default function About () {
+export default function About() {
   return (
     <div className="Box">
       <div className="continer continerAbout">
