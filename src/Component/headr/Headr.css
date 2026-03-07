@@ -10,6 +10,7 @@
   align-items: center;
   /* box-shadow: -10px 0px 20px 0px; */
   box-shadow: 0px 15px 10px -5px rgba(0, 0, 0, 0.3);
+  background: var(--backgroundDark);
 }
 
 .headrBox .Logo {
@@ -33,13 +34,15 @@
 .headrBox .Links a {
   text-decoration: none;
   margin: 0 10px 0 10px;
+  color: var(--colorBalck);
+
 }
 .headrBox .Links ul {
   list-style: none;
   display: flex;
 }
 .headrBox .Links ul li {
-  color: var(--colorBalck);
+  /* color: var(--colorBalck); */
   font-size: 20px;
   color: var(--colorDark);
 
@@ -62,6 +65,9 @@
   z-index: 1000;
   padding: 20px;
   border-radius: 8px;
+}
+
+[dark-theme="dark"] .tagsTow {
   background: var(--backgrundDarkTow);
 }
 .DotsIcon {
@@ -78,6 +84,7 @@
 }
 .Closeicon {
   font-size: 20px;
+  color: white;
 }
 
 /* أنميشن الفتح */
