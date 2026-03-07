@@ -39,7 +39,7 @@
   display: flex;
 }
 .headrBox .Links ul li {
-  color: black;
+  color: var(--colorBalck);
   font-size: 20px;
   color: var(--colorDark);
 

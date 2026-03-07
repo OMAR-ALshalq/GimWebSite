@@ -8,6 +8,7 @@
   --colorMain: rgb(254, 152, 8, 0.8);
   --ColorLight: rgb(128, 124, 124);
   --backgrundDarkTow: rgb(254, 152, 8, 0.8);
+  --colorBalck: black;
 }
 
 [dark-theme="dark"] {
