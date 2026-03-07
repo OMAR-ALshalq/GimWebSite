@@ -33,6 +33,7 @@
 .headrBox .Links a {
   text-decoration: none;
   margin: 0 10px 0 10px;
+  color: var(--colorDark);
 }
 .headrBox .Links ul {
   list-style: none;
@@ -50,14 +51,14 @@
 
 /*  */
 .tagsTow {
-  position: fixed; 
-  top: 0px; 
-  right: 0; 
+  position: fixed;
+  top: 0px;
+  right: 0;
   width: 30%;
-  height: 100vh; 
+  height: 100vh;
   background: black;
   overflow: hidden;
-  z-index: 1000; 
+  z-index: 1000;
   padding: 20px;
   border-radius: 8px;
   background: var(--backgrundDarkTow);
@@ -97,7 +98,7 @@
     -moz-transform: translateX(290px);
     -ms-transform: translateX(290px);
     -o-transform: translateX(290px);
-}
+  }
   to {
     transform: translateX(0px);
     -webkit-transform: translateX(0px);
@@ -121,7 +122,7 @@
     -moz-transform: translateX(325px);
     -ms-transform: translateX(325px);
     -o-transform: translateX(325px);
-}
+  }
 }
 
 .tagsTow ul {
@@ -137,7 +138,6 @@
   margin-top: 10px;
   margin-bottom: 10px;
   /* padding: 10px !important; */
-
 }
 
 .tagsTow ul li a {
