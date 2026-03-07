@@ -3,7 +3,7 @@ import "./About.css";
 const ArrayBoxAbout = [
   {
     id: 1,
-    Imge: "public/banner.png",
+    Imge: "/banner.png",
     textOne: "Global Fitnees",
     textTow: "About us",
     textThree:
@@ -14,7 +14,7 @@ const ArrayBoxAbout = [
   },
   {
     id: 2,
-    Imge: "public/banner2.png",
+    Imge: "/banner2.png",
     textOne: "Global Fitnees",
     textTow: "About us",
     textThree:
@@ -25,7 +25,7 @@ const ArrayBoxAbout = [
   },
   {
     id: 3,
-    Imge: "public/banner.png",
+    Imge: "/banner.png",
     textOne: "Global Fitnees",
     textTow: "About us",
     textThree:
