@@ -32,6 +32,10 @@
   pointer-events: none;
 }
 
+[dark-theme="dark"] .overley::after {
+  background: rgba(0, 0, 0, 0.596);
+}
+
 .textHero {
   position: relative;
   z-index: 5;
@@ -52,6 +56,10 @@
 .textHero p {
   margin: 30px 0 20px 0;
   /* padding: 0; */
+}
+
+[dark-theme="dark"] .textHero p {
+  color: white;
 }
 
 .textHero a {
